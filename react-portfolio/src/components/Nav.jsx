@@ -1,18 +1,17 @@
-import { Link } from 'react-router-dom';
-import Navbar from './navBar';
+import Container from 'react-bootstrap/Container';
+import Navbar from 'react-bootstrap/Navbar';
 
-export default function Nav() {
-    return (
-      <Navbar
-        links={[
-          <Link key={1} className="nav-link text-light" to="/">
-            About me
-          </Link>,
-          <Link key={2} className="nav-link text-light" to="/Portfolio">
-            Portfolio
-          </Link>,
-        ]}
-      />
-    );
-  }
+function Navbar() {
+  return (
+    <Navbar expand="lg" className="bg-body-tertiary">
+      <Container>
+        <Navbar.Brand href="#">Aboutme</Navbar.Brand>
+        <Navbar.Brand href="#">Portfolio</Navbar.Brand>
+        <Navbar.Brand href="#">Contact</Navbar.Brand>
+        <Navbar.Brand href="#">Resume</Navbar.Brand>
+      </Container>
+    </Navbar>
+  );
+}
 
+export default Navbar;
