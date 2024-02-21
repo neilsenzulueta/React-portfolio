@@ -6,7 +6,7 @@ function Header() {
   return (
     <Container fluid>
       <Row>
-        <Col>Neilsen Zulueta</Col>
+        <Col><h1>Neilsen Zulueta</h1></Col>
       </Row>
     </Container>
   );
