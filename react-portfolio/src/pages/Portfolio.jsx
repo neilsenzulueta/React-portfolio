@@ -12,7 +12,7 @@ export default function Portfolio() {
         <Col>
           <Row>
             <Col>
-              <h1 className="portfolio">My Portfolio</h1>
+              <h2 className="portfolio">My Portfolio</h2>
             </Col>
           </Row>
 

@@ -3,7 +3,7 @@
     padding: 20px; 
     margin: 10px;
   }
-  
+
   .row {
     text-align: center; 
   }
@@ -14,7 +14,7 @@
   
   .navLink {
     color: #E0E0E0; 
-    text-decoration: none; 
+    text-decoration:underline; 
     font-size: 18px; 
     transition: color 0.3s ease-in-out; 
   }
@@ -23,5 +23,3 @@
     color: #FFFFFF; 
   }
   
-
-
