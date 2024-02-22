@@ -11,7 +11,7 @@ export default function Aboutme() {
     <Container>
       <Row className="align-items-center"> 
         <Col xs={8} md={3} className="mb-3 mb-md-0"> 
-          <Image src="./public/assets/neilsenimage.jpeg" roundedCircle className="aboutme-image" />
+          <Image src="./assets/neilsenimage.jpeg" roundedCircle className="aboutme-image" />
         </Col>
         <Col xs={12} md={8}>
           <Card>

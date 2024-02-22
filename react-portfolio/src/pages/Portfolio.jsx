@@ -19,7 +19,7 @@ export default function Portfolio() {
           <Row>
             <Col>
               <Card className="cardStyle">
-                <Card.Img variant="top" src="./public/assets/expense-tracker image.JPG" className="appImg" />
+                <Card.Img variant="top" src="./assets/expense-tracker image.JPG" className="appImg" />
                 <Card.Body>
                   <Card.Title>Expense Tracker</Card.Title>
                   <Card.Text>
@@ -36,7 +36,7 @@ export default function Portfolio() {
 
             <Col>
               <Card className="cardStyle">
-                <Card.Img variant="top" src="./public/assets/stockmarketimage.JPG" className="appImg" />
+                <Card.Img variant="top" src="./assets/stockmarketimage.JPG" className="appImg" />
                 <Card.Body>
                   <Card.Title>Stock Market Dashboard</Card.Title>
                   <Card.Text>
@@ -55,7 +55,7 @@ export default function Portfolio() {
           <Row>
             <Col>
               <Card className="cardStyle">
-                <Card.Img variant="top" src="./public/assets/notetakerimage.png" className="appImg" />
+                <Card.Img variant="top" src="./assets/notetakerimage.png" className="appImg" />
                 <Card.Body>
                   <Card.Title>Note-Taker</Card.Title>
                   <Card.Text>
@@ -72,7 +72,7 @@ export default function Portfolio() {
 
             <Col>
               <Card className="cardStyle">
-                <Card.Img variant="top" src="./public/assets/weatherdashboardimage.png" className="appImg" />
+                <Card.Img variant="top" src="./assets/weatherdashboardimage.png" className="appImg" />
                 <Card.Body>
                   <Card.Title>Weather Dashboard</Card.Title>
                   <Card.Text>
@@ -91,7 +91,7 @@ export default function Portfolio() {
           <Row>
             <Col>
               <Card className="cardStyle">
-                <Card.Img variant="top" src="./public/assets/workdayimage.png" className="appImg" />
+                <Card.Img variant="top" src="./assets/workdayimage.png" className="appImg" />
                 <Card.Body>
                   <Card.Title>Work Day Scheduler</Card.Title>
                   <Card.Text>
@@ -108,7 +108,7 @@ export default function Portfolio() {
 
             <Col>
               <Card className="cardStyle">
-                <Card.Img variant="top" src="./public/assets/passwordgeneratorimage.png" className="appImg" />
+                <Card.Img variant="top" src="./assets/passwordgeneratorimage.png" className="appImg" />
                 <Card.Body>
                   <Card.Title>Password Generator</Card.Title>
                   <Card.Text>
