@@ -24,3 +24,9 @@
     transition: background-color 0.3s ease-in-out;
   }
   
+.aboutme-image {
+  width: 100%; 
+  height: auto; 
+  object-fit: cover; 
+  object-position: center; 
+}
