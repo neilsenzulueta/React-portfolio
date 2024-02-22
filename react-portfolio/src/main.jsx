@@ -10,11 +10,11 @@ import App from './App';
 import Aboutme from './pages/Aboutme.jsx';
 import Contact from './pages/Contact.jsx';
 import Portfolio from './pages/Portfolio.jsx';
-//import Resume from './pages/Resume.jsx';
+import Resume from './pages/Resume.jsx';
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '*',
     element: <App />,
     children: [
       {
@@ -31,7 +31,7 @@ const router = createBrowserRouter([
       },
       {
         path: 'resume',
-        //element: <Resume />,
+        element: <Resume />,
       },
     ],
   },

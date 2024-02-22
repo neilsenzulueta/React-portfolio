@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import '../styles/nav.css'
 
-function NavBar () {
+function Navbar() {
   return  (
 
     <Container>
@@ -21,5 +21,5 @@ function NavBar () {
   )
 }
 
-export default NavBar
+export default Navbar
 

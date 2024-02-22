@@ -1,0 +1,34 @@
+.resBody {
+    background-color: #121212; 
+    color: #E0E0E0; 
+    padding: 20px; 
+  }
+  
+  h2, h4 {
+    color: #FFFFFF; 
+  }
+  
+  ul {
+    list-style-type: none; 
+    padding: 0;
+  }
+  
+  li {
+    background-color: #1A1A1A; 
+    color: #E0E0E0; 
+    padding: 10px; 
+    margin-bottom: 5px; 
+    border-radius: 5px; 
+  }
+  
+  .download {
+    background-color: #333333; 
+    border: none; 
+    color: #876d37; 
+  }
+  
+  .download:hover {
+    background-color: #444444; 
+    color: #FFFFFF; 
+  }
+  
