@@ -25,7 +25,7 @@ Once all packages are properly installed. Use command `npm run dev` to start the
   
 ![alt text](<react-portfolio/public/assets/React portfolio screenshot.png>)
 
-[Netlify deployment]()
+[Netlify deployment](https://wonderful-flan-5f590c.netlify.app)
 
 ## Credits
 
