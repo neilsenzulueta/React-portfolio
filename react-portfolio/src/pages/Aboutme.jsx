@@ -1,4 +1,5 @@
 import Card from 'react-bootstrap/Card';
+import '../styles/aboutme.css'
 
 export default function Aboutme() {
   return (

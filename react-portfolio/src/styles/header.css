@@ -1,0 +1,22 @@
+.container-fluid {
+    background-color: #121212; 
+    padding: 20px 0; 
+  }
+  
+  h1 {
+    color: #E0E0E0; 
+    text-align: center; 
+    margin: 0; 
+  }
+  
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 24px; 
+    }
+  }
+  
+  h1:hover {
+    color: #FFFFFF; 
+    transition: color 0.3s ease-in-out;
+  }
+  
