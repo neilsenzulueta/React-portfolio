@@ -1,9 +1,10 @@
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
+import '../styles/nav.css'
 
 function Nav() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg">
       <Container>
         <Navbar.Brand href="#">Aboutme</Navbar.Brand>
         <Navbar.Brand href="#">Portfolio</Navbar.Brand>
