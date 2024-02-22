@@ -9,7 +9,7 @@ import './index.css';
 import App from './App';
 import Aboutme from './pages/Aboutme.jsx';
 //import Contact from './pages/Contact.jsx';
-//import Portfolio from './pages/Portfolio.jsx';
+import Portfolio from './pages/Portfolio.jsx';
 //import Resume from './pages/Resume.jsx';
 
 const router = createBrowserRouter([
@@ -23,7 +23,7 @@ const router = createBrowserRouter([
       },
       {
         path: 'portfolio',
-        //element: <Portfolio />,
+        element: <Portfolio />,
       },
       {
         path: 'contact',

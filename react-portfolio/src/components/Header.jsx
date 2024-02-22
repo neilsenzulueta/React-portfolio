@@ -5,7 +5,7 @@ import '../styles/header.css'
 
 function Header() {
   return (
-    <Container fluid>
+    <Container>
       <Row>
         <Col><h1>Neilsen Zulueta</h1></Col>
       </Row>

@@ -1,18 +1,25 @@
+import { NavLink } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
-import Navbar from 'react-bootstrap/Navbar';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import '../styles/nav.css'
 
-function Nav() {
-  return (
-    <Navbar expand="lg">
-      <Container>
-        <Navbar.Brand href="#">Aboutme</Navbar.Brand>
-        <Navbar.Brand href="#">Portfolio</Navbar.Brand>
-        <Navbar.Brand href="#">Contact</Navbar.Brand>
-        <Navbar.Brand href="#">Resume</Navbar.Brand>
-      </Container>
-    </Navbar>
-  );
+function NavBar () {
+  return  (
+
+    <Container>
+    <Row>
+      <Col><NavLink to="/" className='navLink'>Aboutme</NavLink></Col>
+      <Col><NavLink to="/portfolio" className='navLink'>Portfolio</NavLink></Col>
+      <Col><NavLink to="/contact" className='navLink'>Contact</NavLink></Col>
+      <Col><NavLink to="/resume" className='navLink'>Resume</NavLink></Col>
+      
+    </Row>
+    
+  </Container>
+
+  )
 }
 
-export default Nav;
+export default NavBar
+
